@@ -6,7 +6,7 @@ body{
 
 #particles-js{
   background:firebrick;
-  height:50%;
+  height:100%;
   background:black;
   position: relative;
 }
@@ -35,7 +35,7 @@ a{
   font-size:45px;
   display: inline-block;
   font-family: 'Archivo Black', sans-serif;
-  opacity: 0.7;
+  opacity: 1;
   position: absolute;
   margin-top: 150px;
 }
@@ -52,6 +52,9 @@ a{
   font-size: 15px;
   position: absolute;
   margin-top: 180px;
+  align-self: auto;
+  color : yellow;
+  opacity: 1;
 }
 section{
   background-color: white;
@@ -62,8 +65,40 @@ section{
   position: relative;
   height: 100%;
   width:100%;
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+  background-color: #d1cebd;
+  color: white;
 }
-.btn{
+.my_btn{
   position: absolute;
   margin-top: 20px;
+}
+.second_headline{
+  color: white;
+  padding-top: 40px;
+  font-size: xx-large;
+  font-family: 'Archivo Black', sans-serif;
+  text-align: center;
+}
+.container{
+  margin: 0;
+}
+
+@media only screen and (max-width:600px){
+  .main_content,.child_content,.c_content{
+    transform: translateX(-20) ;
+    margin: 0;
+    /* padding-top:2px ; */
+    /* text-align: left; */
+    font-size:20px;
+    /* background-color: red; */
+  }
+}
+
+@media only screen and (max-width:600px){
+  .block{
+    display: block;
+    padding-bottom: 5px;
+  }
 }

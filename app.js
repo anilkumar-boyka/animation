@@ -23,7 +23,7 @@
 
 var delaySequenceR = anime({
   targets: '.list',
-  keyframes : [{translateY: -100,duration:0},
+  keyframes : [{translateY: -400,duration:0},
   {translateY :1},{rotate:360}],
   
   delay: function(target, index, targetCount) {
