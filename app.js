@@ -72,13 +72,20 @@ x.waypoint(function(direction) {
    targets : '.single_service',
    keyframes : [
      {color : '#000000'},
-     { scale : 0,duration : 0},
-      {opacity: 0},
-      {opacity : 1},
-     {scale : 1,duration : 8000},
+    //  { scale : 0,duration : 0},
+    //   {opacity: 0},
+    //   {opacity : 1},
+    //  {scale : 1,duration : 8000},
+
+    {opacity : 0,duration : -2},
+    {translateX : -9000,duration:2},
+    {opacity : 1,duration : 0},
+    {translateX : 10,duration:2000},
+    
      
    ],
-  
+  endDelay : 4000,
+  easing: 'easeInOutSine'
  });
 
 },{

@@ -5,6 +5,7 @@ body{
 }
 .second_headline_div{
   padding-bottom: 70px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #particles-js{
@@ -28,6 +29,7 @@ body{
 .list{
   display: inline-block;
   margin: 10px;
+  font-family: 'Patua One', cursive;
 }
 a{
   color:white !important;
@@ -41,6 +43,7 @@ a{
   opacity: 1;
   position: absolute;
   margin-top: 150px;
+  font-family: 'Patua One', cursive;
 }
 .child_content{
   color:white;
@@ -49,15 +52,17 @@ a{
   display: block;
   position: absolute;
   margin-top: 180px;
+  font-family: 'Patua One', cursive;
 }
 .c_content{
   font-family: 'Archivo Black', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   position: absolute;
   margin-top: 180px;
   align-self: auto;
   color : yellow;
   opacity: 1;
+  font-family: 'Patua One', cursive;
 }
 section{
   background-color: white;
@@ -86,16 +91,22 @@ section{
   font-size: xx-large;
   font-family: 'Archivo Black', sans-serif;
   text-align: center;
+  font-family: 'Patua One', cursive;
+  
 }
 .container{
   margin: 0;
 }
 .second_headline2{
       color: white;
+      font-family: 'Patua One', cursive;
 }
 h3{
   color : black;
   opacity: 0.8;
+  text-shadow: 4px 4px 7px white;
+  font-family: 'Patua One', cursive;
+  
 }
 
 .single_service{
