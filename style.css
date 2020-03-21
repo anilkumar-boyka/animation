@@ -3,6 +3,9 @@ body{
   font: normal 16px Arial, Helvetica, sand-serif;
   color:#333;
 }
+.second_headline_div{
+  padding-bottom: 70px;
+}
 
 #particles-js{
   background:firebrick;
@@ -62,17 +65,20 @@ section{
   width:100%;
 }
 .second_section{
-  position: relative;
-  height: 100%;
-  width:100%;
+  /* position: relative; */
+  /* width:100%; */
   text-align: center;
   font-family: 'Archivo Black', sans-serif;
   background-color: #d1cebd;
-  color: white;
+  color: #343a40;
+  padding: 50px 0;
 }
 .my_btn{
   position: absolute;
   margin-top: 20px;
+  display: block;
+  top:10px;
+  left:0px;
 }
 .second_headline{
   color: white;
@@ -84,7 +90,23 @@ section{
 .container{
   margin: 0;
 }
+.second_headline2{
+      color: white;
+}
+h3{
+  color : black;
+  opacity: 0.8;
+}
 
+.single_service{
+  padding : 50px;
+}
+.detail{
+  color :#808080;
+}
+/* .images_section{
+  background-color: black;
+} */
 @media only screen and (max-width:600px){
   .main_content,.child_content,.c_content{
     transform: translateX(-20) ;
@@ -101,4 +123,24 @@ section{
     display: block;
     padding-bottom: 5px;
   }
+}
+
+@media screen and (min-width: 600px) and (max-width: 780px){
+  .main_content,.child_content {
+      /* background-color: blue; */
+      font-size: 25px;
+      margin: 0;
+  }
+  my_btn{
+    top:25;
+  }
+}
+
+
+@media (max-width: 960px)
+{
+  .single-service {
+   margin-bottom: 30px;
+   text-align: center;
+   } 
 }

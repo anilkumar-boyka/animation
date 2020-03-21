@@ -44,5 +44,43 @@ var content= anime({
   }
 });
 
+ var x=$(".second_section");
+ x.waypoint(function(direction) {
+  console.log(direction);
+  anime({
+    targets : '.second_headline_div',
+    keyframes : [
+      {color : '#000000'},
+      { scale : 0,duration : 0},
+       {opacity: 0},
+       {opacity : 1},
+      {scale : 1,duration : 8000},
+      
+    ],
+   
+  });
 
+},{
+  offset:'98%'
+});
 
+//images_section
+var x=$(".images_section");
+x.waypoint(function(direction) {
+ console.log(direction);
+ anime({
+   targets : '.single_service',
+   keyframes : [
+     {color : '#000000'},
+     { scale : 0,duration : 0},
+      {opacity: 0},
+      {opacity : 1},
+     {scale : 1,duration : 8000},
+     
+   ],
+  
+ });
+
+},{
+ offset:'98%'
+});
