@@ -115,6 +115,35 @@ h3{
 .detail{
   color :#808080;
 }
+.third_section_headings{
+  color : black;
+  opacity: 0.8;
+  text-shadow: 1.2px 1.2px 3px rgb(82, 75, 75);
+  font-family: 'Patua One', cursive;
+  text-align: center;
+  padding: 80px 0;
+}
+.third_section_heading2{
+  text-shadow: 1px 1px 2px grey;
+  padding-bottom: 80px;
+  color : black;
+}
+
+.single-feature{
+  background-color: #f4eeff;
+  padding : 30px;
+  margin-bottom: 30px;
+  text-shadow: none;
+  font-family: 'Patua One', cursive;
+  opacity: 0.7;
+}
+.single-feature:hover{
+  background-color: #fab700;
+  opacity: 1;
+  transform :scale(1.2,1.2);
+  font-family: 'Concert One', cursive;
+}
+}
 /* .images_section{
   background-color: black;
 } */
