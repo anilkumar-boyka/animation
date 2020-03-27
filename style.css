@@ -115,7 +115,7 @@ h3{
 .detail{
   color :#808080;
 }
-.third_section_headings{
+.third_section_headings,.heading{
   color : black;
   opacity: 0.8;
   text-shadow: 1.2px 1.2px 3px rgb(82, 75, 75);
@@ -140,9 +140,57 @@ h3{
 .single-feature:hover{
   background-color: #fab700;
   opacity: 1;
-  transform :scale(1.2,1.2);
   font-family: 'Concert One', cursive;
 }
+.fourth_section_facts{
+  background-color: #fab700;
+  opacity: 1;
+  padding: 120px;
+}
+.single-fact h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+.single-fact p {
+  color: #222;
+}
+.pb70{
+  padding-bottom: 70px;
+}
+.fifth_section_gallery{
+  padding: 120px;
+}
+.text-center{
+  text-align: center;
+}
+.justify-content-center {
+  justify-content: center!important;
+}
+
+.d-flex {
+  display: flex!important;
+}
+.color-mint{
+  padding: 10px 0 50px 0;
+  text-shadow: 1px 1px 2px grey;
+  padding-bottom: 80px;
+  color : black;
+
+}
+.heading{
+  padding-bottom: 10px;
+}
+
+.counter{
+  font-family: 'Concert One', cursive;
+  font-family: 'Patua One', cursive;
+}
+.single-fact p{
+  font-size: 17px;
+  font-family: 'Patua One', cursive;
+}
+.section5_cards { 
+  opacity: 0;
 }
 /* .images_section{
   background-color: black;

@@ -80,7 +80,7 @@ x.waypoint(function(direction) {
     {opacity : 0,duration : -2},
     {translateX : -9000,duration:2},
     {opacity : 1,duration : 0},
-    {translateX : 10,duration:2000},
+    {translateX : 10,duration:1000},
     
      
    ],
@@ -91,3 +91,65 @@ x.waypoint(function(direction) {
 },{
  offset:'98%'
 });
+
+//third_section
+var x=$(".third_section");
+x.waypoint(function(direction) {
+ console.log(direction);
+ anime({
+   targets : '.single-feature',
+   keyframes : [
+     {color : '#000000'},
+    //  { scale : 0,duration : 0},
+    //   {opacity: 0},
+    //   {opacity : 1},
+    //  {scale : 1,duration : 8000},
+
+    {opacity : 0,duration : -2},
+    // {translateX : -9000,duration:2},
+    {scale  : 0},
+    {opacity : 1,duration : 0},
+    {scale : 1},
+    // {translateX : 10,duration:1000},
+    
+     
+   ],
+  easing: 'easeInOutSine',
+  duration  :2000,
+ });
+
+},{
+ offset:'98%'
+});
+
+
+//fourth-section
+var fourth_class=$(".fourth_section_facts");
+fourth_class.waypoint(function(direction) {
+  console.log("now");
+  anime({
+    targets : '.single-fact',
+    translateX : [{value : -10000,duration : 0},{value : 0,duration : 1000}],
+    // duration  :5000,
+    delay: function(el, i, l){ return i * 500},
+    
+  });
+ 
+ },{
+  offset:'98%'
+ });
+
+ //fifith_section
+ var fifth_class=$(".fifth_section_gallery");
+ fifth_class.waypoint(function(direction) {
+ anime({
+  targets : '.section5_cards',
+  rotate: [{value : 360,duration : 0,opacity : 1},{value : 0,duration : 1000}],
+  opacity : [{value : 1,duration : 2000}],
+  // duration  :5000,
+  delay: function(el, i, l){ return i * 500},
+  
+});
+},{
+  offset:'98%'
+ });
