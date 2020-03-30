@@ -101,7 +101,7 @@
   <section class="third_section">
     <div class="container">
       <div class="third_section_headings">
-        <h1 class="third_section_heading1">Our Services</h1>
+        <h1 class="third_section_heading1 head">Our Services</h1>
         <h3 class="third_section_heading2">Building & Managing Automation driven Cyber Defence Centers</h3>
         <div class="row">
           <div class="col-lg-3 col-md-6">
@@ -291,6 +291,89 @@
                 
     </div>
   </section>
+  <section class="contact-page-area section-gap" id="contact">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="menu-content pb-70 col-lg-8">
+          <div class="title text-center">
+            <h1 class="mb-10 heading">Contact Us</h1>
+            <!-- <a href="jobs" class="secondary-btn text-uppercase">We are hiring</a> -->
+            <button type="button" class="btn btn-outline-success secondary-btn "><a class="btn_link" href="jobs">We are hiring</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- <div class="map-wrap" style="width:100%; height: 445px;" id="map"></div> -->
+        <div style="width:100%; height: 445px; margin-bottom: 2rem">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d790.5630090173809!2d73.94051644716663!3d18.55031047363938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c399308c4df7%3A0x56a3dd07e2356fa1!2sStellar%20Spaces!5e0!3m2!1sen!2sin!4v1573989369986!5m2!1sen!2sin" 
+            width="100%" height="445" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class=" col-lg-4 d-flex flex-column address-wrap">
+          <div class="single-contact-address d-flex flex-row">
+            <div class="icon">
+              <span class="lnr lnr-home"></span>
+            </div>
+            <div class="contact-details">
+              <h5>Pune, India</h5>
+              <p>709, Stellar Spaces <br> Kharadi, Pune, MH 411014</p>
+            </div>
+          </div>
+          <div class="single-contact-address d-flex flex-row">
+            <div class="icon">
+              <span class="lnr lnr-phone-handset"></span>
+            </div>
+            <div class="contact-details">
+              <h5>+91 8446064030</h5>
+              <p>Mon to Fri 10am to 7pm</p>
+            </div>
+          </div>
+          <div class="single-contact-address d-flex flex-row">
+            <div class="icon">
+              <span class="lnr lnr-envelope"></span>
+            </div>
+            <div class="contact-details">
+              <h5>info@egyanamtech.com</h5>
+              <p>Send us your query anytime!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <form class="form-area " id="form" action="/api/mail" method="post"
+            class="contact-form text-right">
+            <div class="row">
+              <div class="col-lg-6 form-group">
+                <input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = 'Enter your name'"
+                  class="common-input mb-20 form-control" required="" type="text">
+                  
+
+                <input name="email" placeholder="Enter email address"
+                  pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+                  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'"
+                  class="common-input mb-20 form-control" required="" type="email">
+
+                <input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = 'Enter your subject'"
+                  class="common-input mb-20 form-control" required="" type="text">
+                <div class="mt-20 alert-msg" style="text-align: left;"></div>
+              </div>
+              <div class="col-lg-6 form-group">
+                <textarea class="common-textarea form-control" name="requirement" placeholder="Messege"
+                  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'"
+                  required=""></textarea>
+                <button class=" btn btn-outline-success secondary-btn  mt-20 btn_link " style="float: right;color:black; font-family:Patua One', cursive;">Send
+                  Message</button>
+
+              </div>
+            </div>
+          </form>
+          <div class="form_data"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End contact-page Area -->
   
 
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
